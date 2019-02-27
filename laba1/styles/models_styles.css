@@ -76,3 +76,95 @@ body * {
   /*border: 1px solid red;*/
   text-align: center;
 }
+/* Стили футера */
+.footer {
+ background-color: black;
+padding: 40px 40px; 
+
+}
+.footer_copyright {
+    max-width: 760px;
+    margin: 10px auto 0;
+    font-size: 11px;
+    letter-spacing: .3px;
+    line-height: 1.63;
+    text-align: center;
+    color: #737373;	
+}
+
+.footer_img {
+	width: 150px;
+}
+
+.footer_tel {
+	font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+	margin-bottom: 30px;
+}
+
+.mainFooterTel__title {
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: .4px;
+    color: #737373;
+}
+
+.mainFooterTel__phone {
+    margin-top: 2px;
+    margin-bottom: 6px;
+    font-size: 27px;
+    letter-spacing: .6px;
+}
+
+.mainFooterTel__title1 {
+    font-size: 12px;
+    line-height: 1.63;
+    letter-spacing: .3px;
+    color: #737373;
+}
+
+.footer_social {
+	
+}
+
+.footer_social *:hover {
+  color: red;
+}
+
+/* .footer_app{ */
+	/* -webkit-box-direction: normal; */
+/* } */
+
+/* .footer_app * { */
+/* padding: 10px 10px; */
+/* } */
+
+/* .social_tabl  { */
+/* flex-direction: row; */
+/* } */
+
+/* .social_tabl * { */
+	/* padding: 3px 0px; */
+}
+
+	.social_tabl  {
+margin: 0; /* Обнуляем значение отступов */ 
+    padding: 4px; /* Значение полей */
+	background-color: black;
+}
+
+.social_tabl * {
+	 display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+     border: 1px solid #000; /* Рамка вокруг текста */ 
+    padding: 3px; /* Поля вокруг текста */
+background-color: black;
+}
+
+.footer_app_individ {
+	margin-left: 350px;
+}
+
+/* стили футера */
