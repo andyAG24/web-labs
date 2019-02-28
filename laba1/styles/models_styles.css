@@ -62,29 +62,138 @@ body * {
   width: 1000px;
   margin: 0 auto;
   /*height: 300px;*/
+  /*background-color: pink;*/
+  border-bottom: 1px solid white;
+  padding-bottom: 100px;
 }
 
-.models * {
+.models > div {
   height: 300px;
   line-height: 1.75em;
   float: left;
+  display: flex;
+  /*border: 1px solid red;*/
   width: 300px;
   text-decoration: none;
-  color: white;
-  padding-left: 12.5px;
-  padding-right: 12.5px;
-  /*border: 1px solid red;*/
+  color: red;
   text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position-y: 100px; 
+  background-position-x: -5px; 
 }
+
+.models > div > a {
+  width: inherit;
+}
+
+.models > div > a > div {
+  color: black !important;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.model_1 {
+  background-image: url('../images/LEGACY_MAIN_720_450.png');
+  background-size: 100%;
+  color: red;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.model_1:hover { 
+  background-size: 150%;
+  transition: 0.2s;
+}
+.model_1:not(:hover) { 
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+.model_2 {
+  background-image: url('../images/XV_MAIN_720_450.png');
+  background-size: 100%;
+  color: red;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.model_2:hover { 
+  background-size: 150%;
+  transition: 0.2s;
+}
+.model_2:not(:hover) { 
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+.model_3 {
+  background-image: url('../images/main page.png');
+  background-size: 100%;
+  color: red;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  background-position-x: 0px !important; 
+}
+.model_3:hover { 
+  background-size: 150%;
+  transition: 0.2s;
+}
+.model_3:not(:hover) { 
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+.model_4 {
+  background-image: url('../images/b701bec789bd2baa80a4f5624fb747785a0b593a1f8bb.png');
+  background-size: 100%;
+  color: red;
+  margin-right: 25px;
+  margin-top: 25px;
+  background-position-x: 5px !important; 
+}
+.model_4:hover { 
+  background-size: 150%;
+  transition: 0.2s;
+}
+.model_4:not(:hover) { 
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+.model_5 {
+  background-image: url('../images/forester_main.png');
+  background-size: 100%;
+  color: red;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background-position-x: 0px !important; 
+}
+.model_5:hover { 
+  background-size: 150%;
+  transition: 0.2s;
+}
+.model_5:not(:hover) { 
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+
+
 /* Стили футера */
 .footer {
  background-color: black;
 padding: 40px 40px; 
+  /*border-top: 1px solid white;*/
 
 }
 .footer_copyright {
-    max-width: 760px;
-    margin: 10px auto 0;
+    max-width: 1200px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 11px;
     letter-spacing: .3px;
     line-height: 1.63;
@@ -126,27 +235,76 @@ padding: 40px 40px;
 }
 
 .footer_social {
-	
+  height: 50px;
+  width: 50%;
+  float: left;
 }
 
-.footer_social *:hover {
-  color: red;
+.footer_social > a {
+	background-image: url("../images/Social_sprite.png");
+  background-size: 1000%;
+  display: flex;
+  float: left;
+  width: 50px;
+  height: 100%;
+  margin-right: 15px;
 }
 
-/* .footer_app{ */
-	/* -webkit-box-direction: normal; */
-/* } */
+.icon1 {
+  background-position: -42px -87px;
+  margin-left: 50px;
+}
+.icon1:hover {
+  background-position: -43px -25px;
+  transition: 0.2s;
+}
+.icon1:not(:hover) {
+  background-position: -42px -87px;
+  transition: 0.3s;
+}
+.icon2 {
+  background-position: -319px -87px;
+}
+.icon2:hover {
+  background-position: -319px -25px;
+  transition: 0.2s;
+}
+.icon2:not(:hover) {
+  background-position: -319px -87px;
+  transition: 0.3s;
+}
+.icon3 {
+  background-position: -374px -87px;
+}
+.icon3:hover {
+  background-position: -374px -25px;
+  transition: 0.2s;
+}
+.icon3:not(:hover) {
+  background-position: -374px -87px;
+  transition: 0.3s;
+}
 
-/* .footer_app * { */
-/* padding: 10px 10px; */
-/* } */
-
-/* .social_tabl  { */
-/* flex-direction: row; */
-/* } */
-
-/* .social_tabl * { */
-	/* padding: 3px 0px; */
+.footer_apps {
+  height: 50px;
+  width: 50%;
+  float: left;
+}
+.footer_apps > a {
+  background-image: url(../images/stores_sprite.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  float: left;
+  width: 150px;
+  display: flex;
+}
+.icon5 {
+  background-position: -1px -19px;
+  margin-left: 212px;
+}
+.icon6 {
+  background-position: -1px -75px;
 }
 
 	.social_tabl  {
@@ -155,12 +313,11 @@ margin: 0; /* Обнуляем значение отступов */
 	background-color: black;
 }
 
-.social_tabl * {
-	 display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-     border: 1px solid #000; /* Рамка вокруг текста */ 
-    padding: 3px; /* Поля вокруг текста */
-background-color: black;
+.social_tabl > li {
+	 display: flex;
+   position: absolute;
+  background-color: black;
+  height: 100%;
 }
 
 .footer_app_individ {
