@@ -103,6 +103,7 @@ body * {
 }
 .model_1:hover { 
   background-size: 150%;
+  box-shadow: 0px 10px 25px rgba(207, 207, 207, 1);
   transition: 0.2s;
 }
 .model_1:not(:hover) { 
@@ -120,6 +121,7 @@ body * {
 }
 .model_2:hover { 
   background-size: 150%;
+  box-shadow: 0px 10px 25px rgba(207, 207, 207, 1);
   transition: 0.2s;
 }
 .model_2:not(:hover) { 
@@ -137,6 +139,7 @@ body * {
 }
 .model_3:hover { 
   background-size: 150%;
+  box-shadow: 0px 10px 25px rgba(207, 207, 207, 1);
   transition: 0.2s;
 }
 .model_3:not(:hover) { 
@@ -154,6 +157,7 @@ body * {
 }
 .model_4:hover { 
   background-size: 150%;
+  box-shadow: 0px 10px 25px rgba(207, 207, 207, 1);
   transition: 0.2s;
 }
 .model_4:not(:hover) { 
@@ -172,6 +176,7 @@ body * {
 }
 .model_5:hover { 
   background-size: 150%;
+  box-shadow: 0px 10px 25px rgba(207, 207, 207, 1);
   transition: 0.2s;
 }
 .model_5:not(:hover) { 
