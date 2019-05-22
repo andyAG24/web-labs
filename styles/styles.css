@@ -1,0 +1,270 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+  width: 1200px;
+	margin: 0 auto;
+  box-shadow: 0 0 15px 0px rgba(0,0,0,0.5);
+	border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+body * {
+  color: white;
+}
+.header {
+/* 	padding-top: 20px; */
+	height: auto; 
+}
+
+.header * {
+  text-decoration: none;
+  color: white;
+}
+
+.header-title {
+  height: 1.5em;
+  line-height: 1.5em;
+  font-size: 60px;
+}
+.navigation {
+  width: 100%;
+  height: 20px;
+}
+
+.navigation * {
+  font-size: 20px;
+  height: 3em;
+  line-height: 3em;
+  width: 20%;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.header *:hover {
+  color: red;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.top {
+  padding-top: 180px;
+}
+
+.menu {
+  position: relative;
+  float: left;
+  width: 20%;
+}
+
+.menu * {
+  height: 1.75em;
+  line-height: 1.75em;
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+}
+
+.menu *:hover {
+  color: red;
+}
+
+.content {
+/*   padding-top: ; */
+}
+
+.content_tehnology {
+  text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.content_picture {
+position: absolute;
+    z-index: 1;
+/*     top: 0; */
+    left: 30;
+    width: 30%;
+    height: 80%
+}
+
+.content_tehnology_text {
+  
+  text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.content_picture {
+  height: 40%;
+  width: 40%;
+  min-width: 500px;
+  object-fit: contain;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+/* Стили футера */
+.footer {
+ background-color: black;
+padding: 40px 40px; 
+  /*border-top: 1px solid white;*/
+
+}
+.footer_copyright {
+    max-width: 1200px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    letter-spacing: .3px;
+    line-height: 1.63;
+    text-align: center;
+    color: #737373; 
+}
+
+.footer_img {
+  width: 150px;
+}
+
+.footer_tel {
+  font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+  margin-bottom: 30px;
+}
+
+.mainFooterTel__title {
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: .4px;
+    color: #737373;
+}
+
+.mainFooterTel__phone {
+    margin-top: 2px;
+    margin-bottom: 6px;
+    font-size: 27px;
+    letter-spacing: .6px;
+}
+
+.mainFooterTel__title1 {
+    font-size: 12px;
+    line-height: 1.63;
+    letter-spacing: .3px;
+    color: #737373;
+}
+
+.footer_social {
+  height: 50px;
+  width: 50%;
+  float: left;
+}
+
+.footer_social > a {
+  background-image: url("../images/Social_sprite.png");
+  background-size: 1000%;
+  display: flex;
+  float: left;
+  width: 50px;
+  height: 100%;
+  margin-right: 15px;
+}
+
+.icon1 {
+  background-position: -42px -87px;
+  margin-left: 50px;
+}
+.icon1:hover {
+  background-position: -43px -25px;
+  transition: 0.2s;
+}
+.icon1:not(:hover) {
+  background-position: -42px -87px;
+  transition: 0.3s;
+}
+.icon2 {
+  background-position: -319px -87px;
+}
+.icon2:hover {
+  background-position: -319px -25px;
+  transition: 0.2s;
+}
+.icon2:not(:hover) {
+  background-position: -319px -87px;
+  transition: 0.3s;
+}
+.icon3 {
+  background-position: -374px -87px;
+}
+.icon3:hover {
+  background-position: -374px -25px;
+  transition: 0.2s;
+}
+.icon3:not(:hover) {
+  background-position: -374px -87px;
+  transition: 0.3s;
+}
+
+.footer_apps {
+  height: 50px;
+  width: 50%;
+  float: left;
+}
+.footer_apps > a {
+  background-image: url(../images/stores_sprite.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  float: left;
+  width: 150px;
+  display: flex;
+}
+.icon5 {
+  background-position: -1px -19px;
+  margin-left: 212px;
+}
+.icon6 {
+  background-position: -1px -75px;
+}
+
+  .social_tabl  {
+margin: 0; /* Обнуляем значение отступов */ 
+    padding: 4px; /* Значение полей */
+  background-color: black;
+}
+
+.social_tabl > li {
+   display: flex;
+   position: absolute;
+  background-color: black;
+  height: 100%;
+}
+
+.footer_app_individ {
+  margin-left: 350px;
+}
+
+.content {
+  position: relative;
+  width: 80%;
+  text-align: center;
+  font-size: 100px;
+  margin-top: -60px;
+}
