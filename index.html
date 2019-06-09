@@ -3,8 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="./styles/jqpagination.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="./scripts/jquery.jqpagination.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-	
+	<script>
+		$('.pagination').jqPagination({
+			paged: function(page) {
+					// do something with the page variable
+			}
+		});
+	</script>
 	<title>Subaru - Russia</title>
 </head>
   
@@ -25,7 +34,7 @@
 	
 	<section class="top clearfix">
     <div class="menu">
-      <a href="#">Impreza</a>
+      <a href="#">XV</a>
       <a href="#">Legacy</a>
       <a href="#">Outback</a>
       <a href="#">WRX & WRX STI</a>
@@ -33,8 +42,33 @@
 		</div>
 		
     <div class="content">
-			До конца пар
-			<div class="countdown-timer"></div>
+
+			<div class="centering-element">
+				<div class="car-image">
+					<img src="">
+				</div>
+				<div class="car-info">
+					<div class="car-info-title"></div>
+					<div class="car-info-characteristics">
+						Двигатель: <span id="car-info-engine"></span> л<br>
+						Расход: <span id="car-info-engine-consumption"></span> л на 100 км (трасса)<br>
+						Максимальная скорость: <span id="car-info-max-speed"></span> км/ч<br>
+						Максимальная мощность: <span id="car-info-hp"></span> л.с.<br>
+						Крутящий момент: <span id="car-info-engine-torque"></span> нм<br>
+						Разгон до 100 км/ч: <span id="car-info-to-100"></span> с<br>
+					</div>
+				</div>
+			</div>
+
+			<!-- Страничная навигация-->
+			<div class="pagination">
+				<a href="#" class="first" data-action="first">&laquo;</a>
+				<a href="#" class="previous" data-action="previous">&lsaquo;</a>
+				<input type="text" readonly="readonly" data-max-page="5" />
+				<a href="#" class="next" data-action="next">&rsaquo;</a>
+				<a href="#" class="last" data-action="last">&raquo;</a>
+			</div>
+			<!------------------------->
 			
     </div>
 		
@@ -66,7 +100,9 @@
 
 		</footer>
 			<!-- Подвал -->
-		<script src="./scripts/countdown-timer.js"></script>
+		<!-- <script src="./scripts/countdown-timer.js"></script> -->
+		<script src="./scripts/cars-selection.js"></script>
+		<script src="./scripts/scripts.js"></script>
 </body>
 
 
